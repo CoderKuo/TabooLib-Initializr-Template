@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import io.izzel.taboolib.gradle.*
 
 plugins {
     java
