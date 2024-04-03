@@ -3,7 +3,7 @@ import io.izzel.taboolib.gradle.*
 
 plugins {
     java
-    id("io.izzel.taboolib") version "2.0.9"
+    id("io.izzel.taboolib") version "2.0.11"
     id("org.jetbrains.kotlin.jvm") version "1.8.22"
 }
 
@@ -18,7 +18,7 @@ taboolib {
         </#list>
     }
     classifier = null
-    version { taboolib = "6.1.0" }
+    version { taboolib = "6.1.1-beta21" }
     <#if description ??>
     description {
         <#if description.name ??>
